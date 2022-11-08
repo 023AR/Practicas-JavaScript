@@ -3,7 +3,6 @@ const btnFib = document.querySelector('#btnCalcular')
 
 btnFib.addEventListener('click', () =>{
   document.querySelector('#resultado').innerText = calcFibo(numCalcular.value);
-
 })
 
 function calcFibo(numero){
@@ -14,10 +13,10 @@ function calcFibo(numero){
   fibonacciUltimo = 1;
 
   for(let i = 0; i < numero; i++){
-    fibonaccioText += ' ' + fibonacciUltimo; 
+    fibonaccioText += '-' + fibonacciUltimo; 
     auxi = fibonaccioAntes; 
     fibonaccioAntes = fibonacciUltimo;  
-    fibonacciUltimo = auxi + fibonacciUltimo; 
+    fibonacciUltimo += auxi; 
   }
   return fibonaccioText;
 }
