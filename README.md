@@ -1,2 +1,2 @@
 # Practicas-JavaScript
-Practicas del curso de Platzi para mejorar en la Programacion de JavaScript, teorica y practica ambos en ejercicios.
+Practicas del curso de Platzi para mejorar en la Programacion de JavaScript, teoria y practica ambos en ejercicios.
